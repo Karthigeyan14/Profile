@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f8f8f8;
+  color: #333;
+}
+
+.resume-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 2rem auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+  background: #f0eae5;
+  padding: 2rem;
+  width: 35%;
+}
+
+.sidebar .photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.sidebar h2 {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.sidebar ul.contact, .sidebar ul.skills {
+  list-style: none;
+  margin-top: 0.5rem;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 0.5rem;
+}
+
+.main-content {
+  padding: 2rem;
+  width: 65%;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #222;
+}
+
+header p {
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.2rem;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+section ul {
+  margin-left: 1.2rem;
+  list-style-type: disc;
+}
